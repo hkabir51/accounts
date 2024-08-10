@@ -52,6 +52,15 @@
           "x": 980.00,
           "y": 420.00,
           "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"eda45efa852a1e6ce6e6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":586,\"y\":271,\"width\":394,\"height\":300,\"z\":1002,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"uc?export=download&id=1dPCDeD6N8GAZnzQ3QbfP7T_jYD1jYh0G.Cr Amount\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(uc?export=download&id=1dPCDeD6N8GAZnzQ3QbfP7T_jYD1jYh0G.Account Name)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"u\",\"Entity\":\"uc?export=download&id=1dPCDeD6N8GAZnzQ3QbfP7T_jYD1jYh0G\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"u\"}},\"Property\":\"Cr Amount\"},\"Name\":\"uc?export=download&id=1dPCDeD6N8GAZnzQ3QbfP7T_jYD1jYh0G.Cr Amount\",\"NativeReferenceName\":\"Cr Amount\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"u\"}},\"Property\":\"Account Name\"}},\"Function\":5},\"Name\":\"CountNonNull(uc?export=download&id=1dPCDeD6N8GAZnzQ3QbfP7T_jYD1jYh0G.Account Name)\",\"NativeReferenceName\":\"Count of Account Name\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"u\"}},\"Property\":\"Account Name\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 394.00,
+          "x": 586.00,
+          "y": 271.00,
+          "z": 1002.00
         }
       ],
       "width": 1280.00
